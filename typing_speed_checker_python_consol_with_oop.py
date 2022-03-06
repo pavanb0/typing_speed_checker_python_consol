@@ -13,7 +13,7 @@ text = random.choice(lista)  # this function from random module that randomly se
 splt_text = re.split("\s", text)  # using reg ex's split function convert string into list with respect to space
 splt_text_length = (len(splt_text))  # actual words in string in int
 #lets apply object oriented programing here
-class type:
+class type:#declareing class named type
     def wpma_pass (self,host, guest, length):  # this function takes two lists and compare every element of host with guest
         flag_1 = 0
         flag_2 = 0
